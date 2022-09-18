@@ -128,6 +128,7 @@ def around_dir(main_path):
                 continue
 
 
-if __name__ == "__main__":
+def main():
     main_path = get_main_path()
-    around_dir(main_path) 
+    around_dir(main_path)   
+   
